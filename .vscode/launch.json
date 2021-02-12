@@ -6,10 +6,8 @@
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node"],
       "args": ["src/server.ts"],
-      "cwd": "${workspaceRoot}",
-      "internalConsoleOptions": "openOnSessionStart",
       "skipFiles": ["<node_internals>/**", "node_modules/**"]
     }
   ]
